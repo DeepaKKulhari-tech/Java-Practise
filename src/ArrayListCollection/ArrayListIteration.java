@@ -1,4 +1,4 @@
-package Collections;
+package ArrayListCollection;
 
 import java.util.ArrayList;
 import java.util.Iterator;

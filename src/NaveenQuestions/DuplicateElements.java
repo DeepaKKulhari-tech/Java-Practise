@@ -53,6 +53,8 @@ public class DuplicateElements {
 			System.out.println("Duplicate :"+s1.getKey());
 		}
 	}
+	
+	System.out.println(m);
 	}
 
 }
