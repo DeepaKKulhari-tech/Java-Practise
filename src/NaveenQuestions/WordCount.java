@@ -31,7 +31,7 @@ public class WordCount {
                {
             	   System.out.println(ss +" : "+ hm.get(ss));
                }
-		}
+		} 
 
 	}
 

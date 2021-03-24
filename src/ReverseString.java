@@ -15,7 +15,7 @@ for(String s:arr)
 	
 	srev+=" "+sb.toString();
 }
-
+ 
 
 System.out.println(srev);
 

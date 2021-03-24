@@ -13,7 +13,7 @@ public class HashMapBasics {
 		hm.put("India", "Delhi");
 		hm.put("UK", "Dehradun");
 		hm.put("UP", "Luckhnow");
-		hm.put("UP", "London");
+		hm.put("UP", "London"); 
 		hm.put(null, "Berlin");// null keys
 		hm.put("China", null);// null value
 
@@ -39,6 +39,7 @@ public class HashMapBasics {
 		while (set.hasNext()) {
 			Entry<String, String> entry = set.next();
 			System.out.println(entry.getKey() + ":" + entry.getValue());
+			
 		}
 	}
 

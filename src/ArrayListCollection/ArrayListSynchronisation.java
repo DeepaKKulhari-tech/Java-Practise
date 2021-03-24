@@ -32,7 +32,7 @@ public class ArrayListSynchronisation {
 		emplist.add("sweta");
 		emplist.add("yadav");
 		System.out.println(emplist);
-
+ 
 	}
 
 }

@@ -56,10 +56,14 @@ public class CompareHashMaps {
 		
 		
 		System.out.println(map1.hashCode());
+
+		System.out.println(map2.hashCode());
+		System.out.println(map3.hashCode());
+		System.out.println(map4.hashCode());
 		
 		
 		
 
-	}
+	} 
 
 }

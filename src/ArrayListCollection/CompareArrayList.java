@@ -21,7 +21,7 @@ public class CompareArrayList {
 		
 		//find the additional/missing elements
 		
-		list2.removeAll(list1);
+		list2.removeAll(list1); 
 		System.out.println(list2);
 		
 		//common elements
