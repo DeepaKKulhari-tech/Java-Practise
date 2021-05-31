@@ -3,6 +3,25 @@ import java.io.*;
 
 class HammingDistance {
 
+	int i=5;
+	public static void staticCheck()
+	{
+		HammingDistance hd=new HammingDistance();
+		int y=hd.i;
+		for(int j=y;j>0;j--)
+		{
+			System.out.print(j);
+		}
+	}
+	
+	
+	
+	
+	
+	
+	
+	
+	
   public static Integer HammingDistance1(String[] strArr) {
     // code goes here  
 
@@ -26,6 +45,9 @@ for(int i=0;i<len;i++)
 	  String [] strArr1= {"helloworld", "worldhello"};
 	  int i=HammingDistance1(strArr1);
 	  System.out.println(i);
+	  
+	  
+	  staticCheck();
   }
 
 }

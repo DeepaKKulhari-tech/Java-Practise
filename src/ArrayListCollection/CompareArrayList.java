@@ -9,12 +9,13 @@ public class CompareArrayList {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		ArrayList<String> list1 = new ArrayList<String>(Arrays.asList("A", "B", "C", "D","F"));
+		ArrayList<String> list1 = new ArrayList<String>(Arrays.asList("A", "B", "G", "D","F"));
 		ArrayList<String> list2 = new ArrayList<String>(Arrays.asList("A", "C", "B", "D","E"));
 
 		System.out.println(list1.equals(list2));
 //sort the list and compare
 		Collections.sort(list1);
+		System.out.println(list1);
 		Collections.sort(list2);
 
 		System.out.println(list1.equals(list2));

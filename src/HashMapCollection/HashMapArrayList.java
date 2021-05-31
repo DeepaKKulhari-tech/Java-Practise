@@ -12,11 +12,14 @@ public class HashMapArrayList {
 		map1.put(1, "A");
 		map1.put(2, "B");
 		map1.put(3, "C");
-
+		
+System.out.println(map1.keySet());
+System.out.println(map1.values());
+		
 		ArrayList<Integer> list1=new ArrayList<Integer>(map1.keySet());
-		System.out.println(list1);
+		//System.out.println(list1);
 		ArrayList<String> list2=new ArrayList<String>(map1.values());
-		System.out.println(list2);
+		//System.out.println(list2);
 		
 	}
 

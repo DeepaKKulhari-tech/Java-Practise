@@ -15,8 +15,11 @@ public class HashMapBasics {
 		hm.put("UP", "Luckhnow");
 		hm.put("UP", "London"); 
 		hm.put(null, "Berlin");// null keys
-		hm.put("China", null);// null value
+		hm.put("China", null);
+		hm.put(null, "Meerut");
+		hm.put("Australia", null);// null value
 
+		System.out.println(hm);
 		System.out.println(hm.get("UP"));// override value
 		System.out.println(hm.get("USA"));
 		System.out.println(hm.get("UK"));

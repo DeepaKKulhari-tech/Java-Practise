@@ -41,7 +41,7 @@ public class CompareHashMaps {
 		map4.put(2, "B");
 		map4.put(3, "C");
 		map4.put(4, "D");
-		//combine and remove common
+		//combine and remove common //A-B
 		HashSet<Integer> combineKeys =new HashSet<Integer>(map1.keySet());
 		combineKeys.addAll(map4.keySet());
 		combineKeys.removeAll(map1.keySet());
