@@ -6,25 +6,25 @@ class Main {
 
   public static String FindIntersection(String[] strArr) {
 		// code goes here
-		Set<Integer> list1 = new TreeSet<Integer>();
-		Set<Integer> list2 = new TreeSet<Integer>();
+		Set<Integer> set1 = new TreeSet<Integer>();
+		Set<Integer> set2 = new TreeSet<Integer>();
 
 		String strArrNew[] = strArr;
 		String[] strArr1 = strArrNew[0].split(",");
 		String[] strArr2 = strArrNew[1].split(",");
 
 		for (int i = 0; i < strArr1.length; i++) {
-			list1.add(Integer.parseInt(strArr1[i].replace(" ", "")));
+			set1.add(Integer.parseInt(strArr1[i].replace(" ", "")));
 		}
 		for (int i = 0; i < strArr2.length; i++) {
-			list2.add(Integer.parseInt(strArr2[i].replace(" ", "")));
+			set2.add(Integer.parseInt(strArr2[i].replace(" ", "")));
 		}
 
 		
-		list1.retainAll(list2);
+		set1.retainAll(set2);
 		
 
-		Object[] strAr = list1.toArray();
+		Object[] strAr = set1.toArray();
 		
 		String s = Arrays.toString(strAr);
 		String s1 = s.replace("[", "");

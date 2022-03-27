@@ -40,8 +40,10 @@ public class PractiseHashSet {
 		System.out.println("=========================================");
 		
 		
-		Set<Integer> first=new HashSet<Integer>();
-		first.addAll(Arrays.asList(new Integer[] {1,2,3,4,5}));
+		Set<Integer> first=new HashSet<Integer>(Arrays.asList(1,2,3,4,5));
+		//first.addAll(Arrays.asList(new Integer[] {1,2,3,4,5}));
+		
+		
 		
 		Set<Integer> second=new HashSet<Integer>();
 		second.addAll(Arrays.asList(new Integer[] {1,2,31,40,15}));

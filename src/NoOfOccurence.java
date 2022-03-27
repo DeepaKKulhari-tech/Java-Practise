@@ -1,4 +1,8 @@
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
+import java.util.Map.Entry;
+import java.util.Set;
 
 public class NoOfOccurence {
 
@@ -22,6 +26,8 @@ public class NoOfOccurence {
 		System.out.println("count of "+charact+" charater is "+count);
 		
 		frequencyOfAllChar(str);
+		System.out.println("Second method of checking frequency");
+		frequencyOfAllCharUsingMap(str);
 		
 	}
 	
@@ -53,6 +59,31 @@ public class NoOfOccurence {
 			
 		}
 		
+		
+	}
+	public static void frequencyOfAllCharUsingMap(String str)
+	{
+		String str1=str.toLowerCase();
+		char ch[]=str1.toCharArray();
+		
+		
+		Map<Character,Integer> mp=new HashMap<>();
+		
+		for(Character c:ch)
+		{
+			 if(!mp.containsKey(c))
+				mp.put(c,1);
+			else
+				mp.put(c,mp.get(c)+1);
+		}
+		
+		mp.remove(' ');
+		
+		
+		
+		for (Map.Entry<Character, Integer> h :mp.entrySet())
+			//if(h.getKey()!=' ')
+	     System.out.println(h.getKey()+" : "+ h.getValue());
 		
 	}
 	

@@ -16,8 +16,11 @@ public class SwappingNumbers {
 		System.out.println("b=" + y);
 
 		
-		  System.out.println("swapping numbers are below"); x = x + y; y = x - y; x = x
-		  - y; System.out.println("a=" + x); System.out.println("b=" + y);
+		  System.out.println("swapping numbers are below"); 
+		  x = x + y; 
+		  y = x - y;
+		  x = x- y; 
+		  System.out.println("a=" + x); System.out.println("b=" + y);
 		 
 		
 		System.out.println("swapping using temp variable");

@@ -3,10 +3,11 @@ import java.io.*;
 
 class Pallindrome {
 
-  public static Boolean Palindrome(String str) {
+  public static Boolean Palindrome(String str2) {
     // code goes here  
     
-    int len=str.length();
+    int len=str2.length();
+    String str= str2.toLowerCase();
     char ch []=str.toCharArray();
     String str1= "";
 
@@ -24,8 +25,11 @@ class Pallindrome {
 
   public static void main (String[] args) {  
     // keep this function call here     
-    Scanner s = new Scanner(System.in);
-    System.out.print(Palindrome(s.nextLine())); 
+    
+	Scanner s = new Scanner(System.in);
+	System.out.println("Enter any pallindrome name");
+	
+    System.out.println(Palindrome(s.nextLine())); 
   }
 
 }

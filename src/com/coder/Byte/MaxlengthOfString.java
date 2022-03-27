@@ -15,8 +15,10 @@ public class MaxlengthOfString {
 	    // code goes here  
 	    
 		String str = sen.replaceAll("\\p{Punct}","");
+		System.out.println(str);
 	    String[] sen1=str.split(" ");
 	    int max=sen1[0].length();
+	    System.out.println(max);
 	    String sen2="";
 	    for(int i=0;i<sen1.length;i++)
 	    {

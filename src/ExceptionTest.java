@@ -31,7 +31,7 @@ public class ExceptionTest {
 		} 
 		catch (Exception e) 
 		{
-			System.out.println("handeled");
+			System.out.println("handelled");
 		}
 
 		System.out.println("normal flow..");

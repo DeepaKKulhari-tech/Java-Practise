@@ -27,7 +27,7 @@ public class WordCount {
 		Set<String> set = hm.keySet();
 
 		for (String ss : set) {
-               if(hm.get(ss)>1)
+               if(hm.get(ss)>=1)
                {
             	   System.out.println(ss +" : "+ hm.get(ss));
                }

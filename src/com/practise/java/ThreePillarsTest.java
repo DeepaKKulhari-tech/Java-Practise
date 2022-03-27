@@ -9,7 +9,7 @@ public class ThreePillarsTest {
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		// 5,7,3,4,6,1,2,4
-		int[] arr = { 500, 4, 3, 10, 2, -6, 7, 8, 10, 20, 100, -10 };
+		int[] arr = { 500, 4, 1, 10, 2, 6, 7, 8, 10, 20, 100, 10 };
 
 		List<Integer> list = new ArrayList<Integer>();
 

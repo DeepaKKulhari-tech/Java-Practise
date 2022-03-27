@@ -21,9 +21,10 @@ public class CharAtExample5 {
 	  }
 	  for(Map.Entry<String,Integer> entry :hm.entrySet())
 	  {
-		  System.out.println(entry.getKey()+entry.getValue());
+		  System.out.println(entry.getKey()+" "+entry.getValue());
 	  }
 	  
+	
 	
 	}
 }

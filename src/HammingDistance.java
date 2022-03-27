@@ -18,7 +18,7 @@ class HammingDistance {
 	
 	
 	
-	
+	//the Hamming distance between two strings of equal length is the number of positions at which the corresponding symbols are different.
 	
 	
 	
@@ -41,8 +41,11 @@ for(int i=0;i<len;i++)
     // keep this function call here     
    // Scanner s = new Scanner(System.in);
     //System.out.print(HammingDistance1(s.nextLine())); 
+	  
 	  String [] strArr={"10011", "10100"};
 	  String [] strArr1= {"helloworld", "worldhello"};
+	  //helloworld
+	  //worldhello
 	  int i=HammingDistance1(strArr1);
 	  System.out.println(i);
 	  

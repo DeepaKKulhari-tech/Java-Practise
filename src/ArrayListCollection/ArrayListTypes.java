@@ -17,7 +17,7 @@ public class ArrayListTypes {
 		alll.add(1);
 		alll.add("deepak");
 
-		// Virtual capacity and Physical capcity concept.
+		// Virtual capacity and Physical capacity concept.
 
 		// combine one arrayList into another
 		// alll.addAll(al);
@@ -34,6 +34,9 @@ public class ArrayListTypes {
 		System.out.println(alll.contains(2)); // //contains any element
 
 		System.out.println(alll.indexOf("deepak"));// index of elements
+		
+		
+		
 		// gives the last index if duplicate elements are present
 		ArrayList<String> list1 = new ArrayList<String>(Arrays.asList("Deepak", "Naveen", "paytm", "Bijak", "Naveen"));
 

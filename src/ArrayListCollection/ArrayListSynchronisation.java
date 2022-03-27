@@ -15,7 +15,7 @@ public class ArrayListSynchronisation {
 		nameList.add("python");
 		nameList.add("Ruby");
 		
-		//to traverse the lit we need explicit keyword synchronized
+		//to traverse the list we need explicit keyword synchronized
 		synchronized (nameList) {
 			
 			Iterator<String> itr=nameList.iterator();

@@ -7,31 +7,41 @@ public class PrimeNumber {
 		int num = 2;
 		int count = 0;
 
-		if (num == 2 ) {
+		if (num == 2 ) 
+		{
 			System.out.println(num + " is a prime");
-		} else if (num > 2) {
+		} 
+		else if (num > 2) 
+		{
 
-			for (int i = num - 1; i > 1; i--) {
-				if (num % i == 0) {
+			for (int i = num - 1; i > 1; i--) 
+			{
+				
+				if (num % i == 0) 
+				{
 					count++;
 					break;
 				}
 
 			}
-			if (count == 0) {
+			if (count == 0) 
+			{
 				System.out.println(num + " is a prime");
 			} else
 				System.out.println(num + " is not a prime");
 		} else
 			System.out.println(num + " is not a prime");
 
-		System.out.println("+++======================================================++");
+		System.out.println("+++========Second Logic to find prime number=============================================++");
 		
 		int counti=0;
+		
 		if (num <1)
 		{   counti++;
 			System.out.println("Not a prime");
 		}
+		else
+		{
 		for(int i=2;i<num;i++)
 		{
 			if(num%i==0)
@@ -40,6 +50,7 @@ public class PrimeNumber {
 				System.out.println("Not a Prime");
 				break;
 			}
+		}
 		}
 		
 		if(counti == 0)

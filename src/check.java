@@ -6,6 +6,7 @@ public class check {
 
 		Parent p = new Parent();
 		p.eat();
+		
 	
 
 		child c = new child();
@@ -14,6 +15,10 @@ public class check {
 
 		Parent d = new child();
 		d.eat();
+		d.talk();
+		
+		
+		
 		
 		
 

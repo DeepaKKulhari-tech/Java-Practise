@@ -26,11 +26,13 @@ public class LinkedListPractise {
 	public void printLinkedList()
 
 	{
+		System.out.print("start-->");
 		Node n = head;
 		while (n != null) {
-			System.out.println(n.data);
+			System.out.print(n.data+"-->");
 			n = n.next;
 		}
+		System.out.println("null");
 
 	}
 

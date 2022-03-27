@@ -39,6 +39,7 @@ public class Stringtest {
 		 * Collections.reverse(arr); Iterator itr=arr.iterator(); while(itr.hasNext()) {
 		 * System.out.println(itr.next()); }
 		 */
+		//This is to reverse each word keeping sentence same.
 
 	}
 
